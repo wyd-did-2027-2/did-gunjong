@@ -50,7 +50,10 @@ interface SiteSectionProps {
   locale?: Locale;
 }
 
-export default function SiteSection({ items, locale = "kr" }: SiteSectionProps) {
+export default function SiteSection({
+  items,
+  locale = "kr",
+}: SiteSectionProps) {
   const swiperRef = useRef<SwiperType | null>(null);
   const [progress, setProgress] = useState(0);
   const t = content[locale];
@@ -59,10 +62,15 @@ export default function SiteSection({ items, locale = "kr" }: SiteSectionProps) 
     <Section
       id="site"
       className="bg-no-repeat bg-center bg-cover relative bg-fixed min-h-auto"
-      style={{ backgroundImage: "url('https://r2-image-server.masterforce999.workers.dev/section-main03.jpeg')" }}
+      style={{
+        backgroundImage:
+          "url('https://r2-image-server.masterforce999.workers.dev/section-main03.jpeg')",
+      }}
     >
       <div className="flex justify-between items-center mb-8 relative z-20">
-        <SectionTitle className="text-white mb-0">{t.sections.site}</SectionTitle>
+        <SectionTitle className="text-white mb-0">
+          {t.sections.site}
+        </SectionTitle>
 
         {items.length > 1 && (
           <div className="items-center gap-4 max-[1080px]:flex hidden">
@@ -97,7 +105,8 @@ export default function SiteSection({ items, locale = "kr" }: SiteSectionProps) 
       <ul
         className="w-full gap-10 relative z-20 h-auto hidden min-[1081px]:grid"
         style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(min(283px, 100%), 370px))",
+          gridTemplateColumns:
+            "repeat(auto-fill, minmax(min(289px, 100%), 1fr))",
         }}
       >
         {items.map((site) => (
