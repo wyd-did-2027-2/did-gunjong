@@ -20,7 +20,7 @@ export const content = {
       ogLocale: "ko_KR",
     },
     header: {
-      logoAlt: "wyd did 군종 로고",
+      logoAlt: "wyd did 군종",
       nav: {
         home: "홈",
         calendar: "캘린더",
@@ -31,7 +31,7 @@ export const content = {
       },
     },
     footer: {
-      logoAlt: "wyd did 군종 로고",
+      logoAlt: "wyd did 군종",
       address:
         "서울특별시 용산구 한강대로40길 46 WYD 군종 교구대회 사무국",
       email: "qna.wyd.doc.icn@gmail.com",
@@ -78,7 +78,7 @@ export const content = {
       ogLocale: "en_US",
     },
     header: {
-      logoAlt: "wyd did Military Ordinariate logo",
+      logoAlt: "wyd did Military Ordinariate",
       nav: {
         home: "Home",
         calendar: "Calendar",
@@ -89,7 +89,7 @@ export const content = {
       },
     },
     footer: {
-      logoAlt: "wyd did Military Ordinariate logo",
+      logoAlt: "wyd did Military Ordinariate",
       address:
         "46, Hangang-daero 40-gil, Yongsan-gu, Seoul, WYD Military Ordinariate Diocesan Committee",
       email: "qna.wyd.doc.icn@gmail.com",
