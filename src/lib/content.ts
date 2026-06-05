@@ -37,7 +37,7 @@ export const content = {
       address:
         "서울특별시 용산구 한강대로40길 46 WYD 군종 교구대회 사무국",
       email: "qna.wyd.doc.icn@gmail.com",
-      phone: "032-765-6997",
+      phone: "02-749-1921",
       hours: "운영시간: 10:00 ~ 18:00",
       copyright: "Copyright ⓒ 군종교구 All rights reserved",
     },
@@ -97,7 +97,7 @@ export const content = {
       address:
         "46, Hangang-daero 40-gil, Yongsan-gu, Seoul, WYD Military Ordinariate Diocesan Committee",
       email: "qna.wyd.doc.icn@gmail.com",
-      phone: "032-765-6997",
+      phone: "02-749-1921",
       hours: "Hours: 10:00 ~ 18:00",
       copyright: "Copyright ⓒ Military Ordinariate of Korea All rights reserved",
     },
